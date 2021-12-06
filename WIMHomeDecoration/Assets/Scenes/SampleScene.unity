@@ -162,7 +162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0bf73d4b4f2d14346bb56b2164eda25f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.0596
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 0bf73d4b4f2d14346bb56b2164eda25f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -400,7 +400,6 @@ MonoBehaviour:
     m_Reference: {fileID: 668350751689969782, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   pointer: {fileID: 84552400}
-  grabbingMaterial: {fileID: 2100000, guid: 54671c73d767d7e43920cbd74ef12829, type: 2}
 --- !u!54 &450805348
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1164,7 +1163,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1130417546}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.32, y: 0.06, z: 0}
+  m_LocalPosition: {x: 3.32, y: 0.23, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 886419117}

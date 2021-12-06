@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5585376121603356694}
   - component: {fileID: 4046220957772853929}
   - component: {fileID: 232261632897834880}
+  - component: {fileID: 3512887799208068368}
   m_Layer: 0
   m_Name: Table_RoundSmall2
   m_TagString: Untagged
@@ -58,6 +59,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0f95273cb612d84fbe8bc8e1446bc1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  child: {fileID: 5334940920826338039}
+--- !u!114 &3512887799208068368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5585376121603356695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5e8fd35eb141f84ea21ec4124636e82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  referObj: {fileID: 0}
 --- !u!1001 &5585376119926947100
 PrefabInstance:
   m_ObjectHideFlags: 0

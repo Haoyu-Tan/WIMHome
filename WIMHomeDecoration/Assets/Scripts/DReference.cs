@@ -37,9 +37,9 @@ public class DReference : MonoBehaviour
 
         this.transform.position = newPos;
         Vector3 lp = this.transform.localPosition;
-        lp.y = 0.3f;
+        lp.y = 0.0f;
         this.transform.localPosition = lp;
-        this.transform.localRotation *= deltaAng;
+        this.transform.rotation *= deltaAng;
         Vector3 eulers = this.transform.localRotation.eulerAngles;
         eulers.x = 0;
         eulers.z = 0;
@@ -49,6 +49,6 @@ public class DReference : MonoBehaviour
             referObj.transform.localPosition = this.transform.localPosition;
             referObj.transform.localRotation = this.transform.localRotation;
         }
-        Debug.Log("Position Changed to" + newPos);
+        //Debug.Log("Position Changed to" + newPos);
     }
 }

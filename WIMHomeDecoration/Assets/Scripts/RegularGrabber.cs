@@ -59,11 +59,6 @@ public class RegularGrabber : Grabber
 
             grabbedObject = currentObject;
             grabbedObject.SetCurrentGrabber(this);
-            if (grabbedObject.GetComponent<Rigidbody>())
-            {
-                grabbedObject.GetComponent<Rigidbody>().isKinematic = true;
-                grabbedObject.GetComponent<Rigidbody>().useGravity = false;
-            }
             grabAngle = this.transform.rotation;
             //originalGBMaterial = grabbedObject.gameObject.GetComponent<Renderer>().material;
             //grabbedObject.gameObject.GetComponent<Renderer>().material = grabbingMaterial;
@@ -78,11 +73,11 @@ public class RegularGrabber : Grabber
     {
         if (grabbedObject)
         {
-            if (grabbedObject.GetComponent<Rigidbody>())
-            {
-                grabbedObject.GetComponent<Rigidbody>().isKinematic = false;
-                grabbedObject.GetComponent<Rigidbody>().useGravity = true;
-            }
+            ////if (grabbedObject.GetComponent<Rigidbody>())
+            //{
+                //grabbedObject.GetComponent<Rigidbody>().isKinematic = false;
+                //grabbedObject.GetComponent<Rigidbody>().useGravity = true;
+            //}
 
             grabbedObject.SetCurrentGrabber(null);
             //grabbedObject.transform.parent = null;
