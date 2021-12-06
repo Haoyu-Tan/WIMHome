@@ -485,7 +485,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table_RoundSmall2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4046220957772853929, guid: 2e511f85b69de8449a7c539cae5d884e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2e511f85b69de8449a7c539cae5d884e, type: 3}
 --- !u!4 &489580787 stripped
 Transform:
