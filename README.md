@@ -8,6 +8,10 @@ This is a VR Application about World in Miniature Home Decoration for Oculus Que
 
 ## Instruction
 
+Link: https://youtu.be/mz_4HhC8xgQ
+
+[![a88903d9d8cdffb8f4b4c30650017de](https://user-images.githubusercontent.com/35856355/149059446-e78d5cd2-ce73-43e4-8a86-77253c1b9c6c.png)](https://youtu.be/mz_4HhC8xgQ)
+
 ### How to Run
 
 You are very welcome to download the zip file of this repository and install the FinalVersion.apk file in your Quest using the SideQuest application.
