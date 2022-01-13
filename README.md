@@ -6,11 +6,11 @@ This is a VR Application about World in Miniature Home Decoration for Oculus Que
 
 ## Project Video
 
-## Instruction
-
 Link: https://youtu.be/mz_4HhC8xgQ
 
 [![df816dd3193e300a91b9ef1f959efb6](https://user-images.githubusercontent.com/35856355/149073366-fca1c883-6e82-487d-81d1-29c0d02acbec.png)](https://youtu.be/mz_4HhC8xgQ)
+
+## Instruction
 
 ### How to Run
 
